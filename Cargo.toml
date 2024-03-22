@@ -1,0 +1,14 @@
+[package]
+name = "adri-rusty-site"
+version = "0.1.0"
+edition = "2021"
+authors = ["Adrigorithm"]
+description = "My personal website in Rust using WASM"
+license = "GPLv3"
+repository = "https://github.com/Adrigorithm/adri-rusty-site"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
